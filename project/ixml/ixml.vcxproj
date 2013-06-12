@@ -94,6 +94,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;DEBUG;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -104,6 +105,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;DEBUG;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -139,6 +141,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\ixml.h" />
+    <ClInclude Include="..\..\include\ixmldebug.h" />
+    <ClInclude Include="..\..\include\ixmlglobal.h" />
     <ClInclude Include="..\..\include\ixml\ixmlmembuf.h" />
     <ClInclude Include="..\..\include\ixml\ixmlparser.h" />
   </ItemGroup>
@@ -147,6 +151,7 @@
     <ClCompile Include="..\..\src\document.c" />
     <ClCompile Include="..\..\src\element.c" />
     <ClCompile Include="..\..\src\ixml.c" />
+    <ClCompile Include="..\..\src\ixmldebug.c" />
     <ClCompile Include="..\..\src\ixmlmembuf.c" />
     <ClCompile Include="..\..\src\ixmlparser.c" />
     <ClCompile Include="..\..\src\namedNodeMap.c" />
